@@ -18,3 +18,9 @@
     opacity: 0.9;
     background: rgba(22, 182, 22, 0.249);
 }
+
+
+#gameSpace{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
