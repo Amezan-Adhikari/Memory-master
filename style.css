@@ -21,6 +21,33 @@
 
 
 #gameSpace{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin-inline: 1rem;
+    padding: 1rem;
+    background-color: rgb(16, 18, 37);
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.wordBox{
+    width: 100%;
+    padding-top: 0.7rem;
+    height: 3rem;
+    text-align: center;
+    color: rgb(166, 167, 194);
+    border-radius: 1rem;
+    font-size: large;
+    font-weight: 600;
+    background: #362353;
+}
+.timer{
+    text-align: center;
+    font-size: 10rem;
+}
+
+.green{
+    color: rgb(71, 164, 71);
+}
+
+.red{
+    color: rgb(224, 103, 103);
 }

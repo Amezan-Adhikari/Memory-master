@@ -3,8 +3,9 @@ export function gameComponent(){
     div.classList.add("mainGame");
     div.id = "mainGame";
     div.innerHTML = `
-    <h1 class="text-lg text-center mt-5">Memorize the following words</h1>
-    <div id="gameSpace"><div>
+    <h1 id="heading" class="text-lg text-center my-5">Memorize the following words</h1>
+    <div id="gameSpace" class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    </div>
     `
     return div;
 }
